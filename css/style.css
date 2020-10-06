@@ -1,0 +1,162 @@
+header{
+    background: radial-gradient(75.49% 75.49% at 61.01% 75.77%, #376A9A 0%, #2B5276 100%);
+    /*background-size: 100%;
+    display: block;*/
+    margin: 0;
+    padding: 0;
+    height: 718px;
+}
+
+body{
+    background-color: #FFFFFF;
+    font-family: 'ProximaNova';
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 135px;
+    color: #A9C5E0;
+    font-size: 13px;
+    align-items: center;
+}
+
+.logo-info{ /*что-то сделать с названиями тут*/
+    display: flex;
+}
+
+.logo-info span{/*тут*/
+    margin-right: 30px;
+}
+
+.logo{/*и тут*/
+    margin-right: 50px;
+}
+
+.header-login img{
+    width: 14px;
+    height: 14px;
+    transform: matrix(0, -1, -1, 0, 0, 0);
+    margin-right: 12px;
+}
+
+.header-login button{
+    font-family: 'ProximaNova';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #E5E31F;
+    width: 170px;
+    height: 52px;
+    /*left: 1135px;
+    top: 27px;*/
+    border: 1px solid #E5E31F;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-left: 28px;
+}
+
+.header-body{
+    display: flex;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.header-body-elements{
+    display: block;
+    color: #FFFFFF;
+    width: 660px;
+    padding: 135px;
+    padding-bottom: 0px;
+}
+
+.header-body-elements h1{
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 64px;
+    margin: 0px;
+    padding-bottom: 18px;
+}
+
+.header-body-elements button{
+    width: 240px;
+    height: 52px;
+    background: #E5E31F;
+    border: 1px solid #E5E31F;
+    border-radius: 10px;
+
+    font-family: 'ProximaNova';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #2A4F71;
+    margin-top: 87px;
+}
+
+.car{
+    width: 510px;
+    height: 612px;
+    /*left: 805px;
+    top: 106px;*/
+    margin-right: 0;
+    padding-right: 125px;
+}
+
+@font-face { 
+    font-family: "ProximaNova"; 
+    src: url("../fonts/ProximaNova-Extrabld.eot");
+    src: url("../fonts/ProximaNova-Extrabld.ttf") format("truetype"),
+    url("../fonts/ProximaNova-ExtrabldIt.woff") format("woff"),
+    url("../fonts/ProximaNova-Extrabld.woff2") format("woff2");
+    
+    font-style: normal; 
+    font-weight: bolder; 
+}
+
+@font-face { 
+    font-family: "ProximaNova"; 
+    src: url("../fonts/ProximaNova-Regular.eot");
+    src: url("../fonts/ProximaNova-Regular.ttf") format("truetype"),
+    url("../fonts/ProximaNova-Regular.woff") format("woff"),
+    url("../fonts/ProximaNova-Regular.woff2") format("woff2");
+    
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face { 
+    font-family: "ProximaNova"; 
+    src: url("../fonts/ProximaNova-Light.eot");
+    src: url("../fonts/ProximaNova-Light.ttf") format("truetype"),
+    url("../fonts/ProximaNova-Light.woff") format("woff"),
+    url("../fonts/ProximaNova-Light.woff2") format("woff2");
+    
+    font-style: normal; 
+    font-weight: lighter; 
+}
+
+@font-face { 
+    font-family: "ProximaNova"; 
+    src: url("../fonts/ProximaNova-Bold.eot");
+    src: url("../fonts/ProximaNova-Bold.ttf") format("truetype"),
+    url("../fonts/ProximaNova-Bold.woff") format("woff"),
+    url("../fonts/ProximaNova-Bold.woff2") format("woff2");
+    
+    font-style: normal; 
+    font-weight: bold; 
+}
+
+@font-face { 
+    font-family: "ProximaNova"; 
+    src: url("../fonts/ProximaNova-Semibold.eot");
+    src: url("../fonts/ProximaNova-Semibold.ttf") format("truetype"),
+    url("../fonts/ProximaNova-Semibold.woff") format("woff"),
+    url("../fonts/ProximaNova-Semibold.woff2") format("woff2");
+    
+    font-style: normal; 
+    font-weight: 600; 
+}
